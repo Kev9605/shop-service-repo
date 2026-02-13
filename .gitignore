@@ -1,0 +1,13 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build outputs
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
