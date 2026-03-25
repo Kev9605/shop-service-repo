@@ -43,4 +43,9 @@ public class ProductController {
         return ResponseEntity.noContent().build();
     }
 
+    @GetMapping("/version")
+    public String version() {
+        return "product-service v2";
+    }
+
 }
