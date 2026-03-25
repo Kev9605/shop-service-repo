@@ -45,7 +45,7 @@ public class ProductController {
 
     @GetMapping("/version")
     public String version() {
-        return "product-service v2";
+        return "product-service v1-updated";
     }
 
 }
