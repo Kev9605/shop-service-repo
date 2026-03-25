@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: shop-app
+data:
+  ENV: "dev"
+  PRODUCT_SERVICE_URL: "http://product-service:8081"
+  VERSION: "v1"
