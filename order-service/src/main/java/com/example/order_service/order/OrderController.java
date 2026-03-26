@@ -33,4 +33,9 @@ public class OrderController {
     public ResponseEntity<Order> createOrder(@Valid @RequestBody CreateOrderRequest createOrderRequest) {
         return orderLogicService.create(createOrderRequest);
     }
+
+    @GetMapping("/version")
+    public String version() {
+        return "order-service v2 (Green)";
+    }
 }
