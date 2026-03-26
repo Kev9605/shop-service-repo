@@ -36,6 +36,6 @@ public class OrderController {
 
     @GetMapping("/version")
     public String version() {
-        return "order-service v2 (Green)";
+        return "order-service v1 (Blue)";
     }
 }
